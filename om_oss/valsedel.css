@@ -1,0 +1,107 @@
+
+
+/*-----------valsedel------------------*/
+.teckenforklaring{
+	float:left;
+	clear:left;
+	padding:0.4em 1.2em 0.4em 1.2em;
+	margin:0 0 1% 0;
+}
+.personval_vald{
+	float:left;
+	clear:left;
+	width:100%;	
+	padding:0 2em 0 20px;
+	background:url(../bild/personroster_vald.gif) top left no-repeat transparent;
+}
+.vald_ej_personroster{
+	float:left;
+	clear:left;
+	width:100%;	
+	padding:0 2em 0 20px;
+	background:url(../bild/vald.gif) top left no-repeat transparent;
+}
+.valsedel{
+	float:left;
+	clear:none;
+	text-align:center;
+	width:98%;
+	max-width:40em;
+	font-size:small;
+	margin:0 0 1% 1%;
+	border:1px solid #cccccc;
+	box-shadow:0 0 5px 1px #dddddd;
+}
+		#riksdagsval .valsedel{
+			background-color:#FFFFCC;
+		}
+		#landstingsval .valsedel{
+			background-color:#D7F2FF;
+		}
+
+.valsedlar .valsedel:nth-child(odd){
+	clear:left;
+}
+.valsedel img{
+	width:90%;
+	margin:0;
+	max-height:102px;
+}
+.valsedel h3{
+	padding:5%;
+	margin:1%;
+	font-size:large;
+}
+.valsedel ol{
+	float:left;
+	width:95%;
+	text-align:left;
+	padding:0.5em 0 0.5em 3.5em;
+	margin:0;
+}
+.valsedel .valtyp{
+	font-size:x-small;
+}
+.valsedel .markera{
+	margin:0.5em;	
+}
+.valsedel .utkast{
+	background:url(../bild/utkast.png) #FFE2D5;
+}
+.valsedel .utfyllnad{
+	float:right;
+	width:1px;
+	height:45em;
+}
+.valsedel .fot{
+	position:relative;
+	clear:both;
+}
+.valsedel .ej_samtycke{
+	color:rgba(80,80,80,0.6);
+	background-color:rgba(204,51,0,0.2);
+}
+.valsedel .ej_forklaring{
+	color:rgba(80,80,80,0.6);
+	background-color:rgba(0,153,204,0.2);
+}
+.pilupp{
+	display:block;
+	padding:1em 2em 1em 40px;
+	background:url(../bild/pilupp.jpg) no-repeat 5px;
+	border:1px solid #dddddd;
+	border-radius:0.3em;
+	box-shadow:0 0 3px 1px #eeeeee;
+}
+.valsedel a {
+    color: black;
+    text-decoration: none;
+}
+.valsedel a:hover {
+    border-bottom: .1em solid black;
+}
+.valsedel li {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    font-size: 1.2em;
+}

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    #topbar {
+        height: 20vh;
+        z-index: 5;
+    }
+}
