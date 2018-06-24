@@ -1,6 +1,14 @@
 @media only screen and (max-width: 768px) {
     #topbar {
         height: 20vh;
+        width: 110vw;
         z-index: 5;
+    }
+    #portrait_txt {
+        
+    }
+    #container2 {
+        grid-template-columns: repeat(2, 12.5em);
+        margin-left: 1.5em;
     }
 }
