@@ -67,7 +67,6 @@
 }
 
 #container2 > a > div {
-    position: sticky;
     z-index: 24;
     background-color: white;
     height: 187px;
@@ -81,7 +80,6 @@
     box-shadow: 0px 1px 43px -4px rgba(0,0,0,0.24);
 }
 #container2 > a:hover div {
-    position: absolute;
     height: 200px;
     width: 213px;
     margin-top: -1em;
