@@ -2,7 +2,8 @@
     #topbar {
         top:0;
         left:0;
-        padding: 5vh 7vw;
+        height: 20vh;
+        width: 110vw;
         margin-left: 0em;
         background-color: #ED1B34;
         position: fixed;
@@ -19,11 +20,10 @@
     #topbar_img {
         height: 20.25vw;
         width: 90vw;
-        margin: -2em 0em 0em -1em;
+        margin: 0em 0em 0em 0em;
     }
     #topbar_txt {
-        margin-left: 9em;
-        margin-top: -1.9em;
+        margin-left: 7.5em;
     }
     #topbar_a {
         position: fixed;
@@ -44,6 +44,7 @@
     #text {
         grid-row: 1;
         grid-column: 1 / 4;
+        margin-left: -1em;
     }
     #sidebar {
         grid-row: 2;
@@ -59,5 +60,11 @@
     #tillsammans { 
         margin-left: 1em;
     }
+    #topbar_diva {
+        display: inline;
+        width: 40vw;
+    }
 }
+
+
 

@@ -123,8 +123,8 @@
 #topbar {
     top:0;
     left:0;
-    padding: 1vh 100vw;
-    margin-left: -115em;
+    height: 10vh;
+    width: 100vw;
     background-color: #ED1B34;
     position: fixed;
     border-bottom: .5em solid #C4082E;
