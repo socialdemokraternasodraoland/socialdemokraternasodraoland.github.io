@@ -1,3 +1,58 @@
+@media only screen and (height: 768px) {
+    #topbar {
+        top:0;
+        left:0;
+        height: 13vh;
+    }
+    #topbar_txt {
+        margin-left: 12.7em;
+        margin-top: -1.9em;
+        font-size: 1em;
+        color: #FFFFFF;
+        font-family: SFont5;
+        font-weight: bold;
+    }
+}
+@media only screen and (height: 664px) {
+    #topbar {
+        top:0;
+        left:0;
+        height: 15vh;
+    }
+    #topbar_txt {
+        margin-left: 12.7em;
+        margin-top: -1.9em;
+        font-size: 1em;
+        color: #FFFFFF;
+        font-family: SFont5;
+        font-weight: bold;
+    }
+}
+@media only screen and (height: 600px) {
+    #topbar {
+        top:0;
+        left:0;
+        height: 15vh;
+    }
+    #topbar_a {
+        font-size: 1.5em;
+        margin-top: -2.7em;
+        margin-left: 17.5em;
+    }
+    #omoss {
+        font-size: 1.5em;
+        margin-top: -2.7em;
+        margin-left: 22.5em;
+    }
+    #topbar_txt {
+        margin-left: 12.7em;
+        margin-top: -1.9em;
+        font-size: 1em;
+        color: #FFFFFF;
+        font-family: SFont5;
+        font-weight: bold;
+    }
+}
 @media only screen and (max-width: 768px) {
     #topbar {
         top:0;
