@@ -110,7 +110,7 @@
 
 #sidebar {
     grid-row: 1;
-    grid-column: 2 / 4;
+    grid-column: 2;
 }
 
 #bottom {
@@ -166,7 +166,7 @@ body {
 #fb2 {
     border:none;
     overflow:hidden;
-    margin-left: 3em;
+    margin-left: 2em;
     margin-top: -2em;
         
 }
@@ -175,7 +175,8 @@ body {
     font-family: SFont4;
     color: #ED1B34;
     margin-top: .9em;
-    margin-left: 1.5em;
+    text-align: center;
+    margin-left: -5em;
 }
 
 #cred {
@@ -194,7 +195,8 @@ body {
 }
 
 #tillsammans_quote {
-    margin-left: 3.5em;
+    margin-left: 1.5em;
+    width: 140%;
 }
 
 #topbar_a {
@@ -295,4 +297,41 @@ a {
 
 body {
     background-color: #F2F2F2;   
+}
+
+#right {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#Events {
+    margin-left: 3.5em;
+}
+
+#skolan {
+    background-image: url(../img/skola.jpg);
+    background-size: 187px 120px;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+
+#omsorg {
+    background-image: url(../img/omsorg.jpg);
+    background-size: 187px 120px;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+
+#boende {
+    background-image: url(../img/bostad.jpg);
+    background-size: 187px 120px;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+
+#aldre {
+    background-image: url(../img/aldre.jpg);
+    background-size: 187px 120px;
+    background-repeat: no-repeat;
+    background-position: top; 
 }
